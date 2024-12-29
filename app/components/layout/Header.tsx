@@ -6,7 +6,7 @@ const Header = () => {
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo */}
         <Link href="/">
-          <a className="text-2xl font-bold">HRIG</a>
+            HRIG
         </Link>
 
         {/* Navigation */}
@@ -14,22 +14,22 @@ const Header = () => {
           <ul className="flex space-x-6">
             <li>
               <Link href="/about">
-                <a className="hover:text-gray-300">About</a>
+                About
               </Link>
             </li>
             <li>
               <Link href="/deals">
-                <a className="hover:text-gray-300">Deals</a>
+                Deals
               </Link>
             </li>
             <li>
               <Link href="/calculators/arv">
-                <a className="hover:text-gray-300">ARV Calculator</a>
+                ARV Calculator
               </Link>
             </li>
             <li>
               <Link href="/contact">
-                <a className="hover:text-gray-300">Contact</a>
+                Contact
               </Link>
             </li>
           </ul>
@@ -37,9 +37,7 @@ const Header = () => {
 
         {/* Call to Action */}
         <Link href="tel:+1234567890">
-          <a className="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded">
             Call Us
-          </a>
         </Link>
       </div>
     </header>
